@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: greenyellow;
+    color: white;
+    margin: 0px;
+}
+
+.horizontal-nav ul {
+    background-color: orange;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0%;
+}
+
+.horizontal-nav li {
+    display: inline-block; 
+}
+
+.horizontal-nav a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-nav a:hover {
+    background-color: orangered;
+}
+
+.horizontal-nav .active {
+    background-color: rgba(255, 255, 0, 0.842);
+}
+
+main {
+    overflow: auto;
+}
+
+.left-col {
+    width: 25%;
+    background-color: lightgray;
+    padding: 20px;
+    float: left;
+    text-align: left;
+    list-style-type: none;
+}
+
+.left-col h2 {
+    text-align: center;
+    background-color: palevioletred;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.vertical-nav {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.vertical-nav li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.vertical-nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: purple;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.vertical-nav a:hover {
+    background-color: pink;
+}
+
+.right-col {
+    width: 75%;
+    padding: 20px;
+    background-color: white;
+    float: left;
+}
+
+
+.gallery-item {
+    width: 250px;
+    height: 400px;
+    border: 2px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    float: left; 
+    margin: 5px;
+}
+
+.gallery-item:hover {
+    border-color: blueviolet;
+}
+
+.gallery-item img {
+    width: auto;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+  
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+}
+
+
+
+.back-page {
+    height: 100vh;
+    background-color: #ec0707;
+    text-align: center;
+}
+
+.back-button {
+    padding: 15px 30px;
+    background-color: #0ce7d5;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 50vh; 
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
